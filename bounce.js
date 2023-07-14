@@ -157,10 +157,10 @@ function draw() {
   if(game_state == "play") {
     background(bg_image);
   
-    if (keyIsDown(LEFT_ARROW)) {
+    if (keyIsDown(LEFT_ARROW) || keyIsDown(65)) {
       platform.move('left');
     } 
-    else if (keyIsDown(RIGHT_ARROW)) {
+    else if (keyIsDown(RIGHT_ARROW) || keyIsDown(68)) {
       platform.move('right');
     }
     platform.draw();
@@ -176,7 +176,7 @@ function draw() {
         ball.velocity['y'] *= -1;
         bricks.splice(i, 1);
         score += brick.points;
-        added_speed += 0.025;
+        added_speed += 0.01;
 
         platform.speed = {
           right: createVector(platform.s += added_speed, 0),
@@ -231,6 +231,7 @@ function draw() {
       textSize(75);
       textFont(mc_font);
       fill(0);
+      text(`BOUNCE GAME`, 230, HEIGHT - 200);
       text(`PRESS SPACE TO PLAY!`, 50, HEIGHT - 100);
       if (keyIsDown(32)) {
         game_state = "play"; 
