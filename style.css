@@ -1,6 +1,15 @@
 body {
 background-color: powderblue;
 height: 100%;
+
+}
+
+* {
+  cursor: url("images/large_images/default mouse.png"), default;
+}
+
+button:hover {
+  cursor: url("images/large_images/default mouse.png"), default;
 }
 
 h1 {
