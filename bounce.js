@@ -9,7 +9,7 @@ let winning_score = 48;
 
 var name;
 var added_speed = 0, game_state = "start", high_score = 0, score = 0, new_high = false;
-var x_variability;
+var x_variability = 0;
 var leaderboard = {};
 var sorted_leaderboard;
 
@@ -80,7 +80,7 @@ class Platform {
       left: createVector(this.s * -1, 0)
     };
     platform_image.resize(this.width, this.height);
-    x_variability = Math.floor(Math.random() * 400) - 200;
+    x_variability = Math.floor(Math.random() * 500) - 250;
   }
 
   draw() {
