@@ -6,23 +6,24 @@ let obstacle_image;
 
 var game_state = "start", bananas = 0, high_bananas = 0, new_high = false;
 var added_speed = 0;
+let notAvplane = true;
 
 function preload() {
   bg_image = loadImage("images/large_images/bg.png");
   bg_image.resize(WIDTH, HEIGHT);
-  player_image = loadImage("images/monkey plane game/cropped/plane.png");
+  player_image = loadImage("images/blown up images/cropped/blown up sprite.png");
   player_image_flash = loadImage("images/monkey plane game/cropped/plane_flash.png");
-  heart_image = loadImage("images/monkey plane game/heart.png");
-  banana_image = loadImage("images/monkey plane game/cropped/banana.png");
-  banana_image_icon = loadImage("images/monkey plane game/cropped/banana.png");
-  obstacle_image = loadImage("images/monkey plane game/cropped/stick.png");
+  heart_image = loadImage("images/blown up images/blown up heart.png");
+  banana_image = loadImage("images/blown up images/cropped/blown up banana.png");
+  banana_image_icon = loadImage("images/blown up images/cropped/blown up banana.png");
+  obstacle_image = loadImage("images/blown up images/cropped/stick.png");
   lose_image = loadImage("images/large gifs/disapointed monkey.gif");
   mc_font = loadFont("Minecraft.ttf");
 }
 
 class Player {
   constructor() {
-    this.width = 100;
+    this.width = 125;
     this.height = 100;
     this.location = createVector(150, 100);
     this.x = 5;
@@ -32,8 +33,8 @@ class Player {
     this.health_start = 5;
     this.health_remaining = this.health_start;
 
-    player_image.resize(this.width, this.height);
-    player_image_flash.resize(this.width, this.height);
+    // player_image.resize(this.width, this.height);
+    // player_image_flash.resize(this.width, this.height);
   }
 
   draw(hit) {
@@ -68,6 +69,24 @@ class Player {
     }
     if (keyIsDown(UP_ARROW) || keyIsDown(87)) {
       this.location.y -= (this.y + added_speed);
+    }
+    if((keyIsDown(70)) && notAvplane) {
+      player_image = loadImage("images/blown up images/cropped/avplane.png");
+      banana_image = loadImage("images/blown up images/cropped/gascan.png");
+      banana_image_icon = loadImage("images/blown up images/cropped/gascan.png");
+      // player_image.resize(this.width, this.height);
+      // player_image_flash.resize(this.width, this.height);
+      // banana_image.resize(50, 50);
+      notAvplane = false;
+    }
+    else if((keyIsDown(70)) && !notAvplane) {
+      player_image = loadImage("images/blown up images/cropped/blown up sprite.png");
+      banana_image = loadImage("images/blown up images/cropped/blown up banana.png");
+      banana_image_icon = loadImage("images/blown up images/cropped/blown up banana.png");
+      // player_image.resize(this.width, this.height);
+      // player_image_flash.resize(this.width, this.height);
+      // banana_image.resize(50, 50);
+      notAvplane = true;
     }
   }
 
