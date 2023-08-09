@@ -29,7 +29,7 @@ function preload() {
   win_image = loadImage("images/large gifs/dance gif.gif");
   lose_image = loadImage("images/large gifs/disapointed monkey.gif");
   platform_image = loadImage("images/large_images/platform.png");
-  ball_image = loadImage("images/fruit/orangefruit.png");
+  ball_image = loadImage("images/blown up images/blown up ball.png");
   banana_image = loadImage("images/fruit/bananabasket.png");
   berries_image = loadImage("images/fruit/berriesbasket.png");
   orange_image = loadImage("images/fruit/orangebasket.png");
@@ -101,7 +101,7 @@ class Platform {
 
 class Ball {
   constructor(platform) {
-    this.radius = 20;
+    this.radius = 30;
     this.location = createVector(platform.location.x + (platform.width / 2) + x_variability, (platform.location.y - this.radius));
     this.s = 3;
     this.velocity = createVector(this.s, this.s * -1);
