@@ -9,15 +9,15 @@ Link: https://mandyschen.github.io/GamesPortfolio/
 *Dodge obstacles using WASD or arrow keys.*  
   
 **2. Bounce**  
-![Screenshot from Plane](https://github.com/mandyschen/GamesPortfolio/blob/main/screenshots/bounce.jpg)  
+![Screenshot from Bounce](https://github.com/mandyschen/GamesPortfolio/blob/main/screenshots/bounce.jpg)  
 *Bounce a ball against baskets in this brick-breaker esque game.*  
   
 **3. Pong**  
-![Screenshot from Plane](https://github.com/mandyschen/GamesPortfolio/blob/main/screenshots/pong.jpg)   
+![Screenshot from Pong](https://github.com/mandyschen/GamesPortfolio/blob/main/screenshots/pong.jpg)   
 *Play pong with WASD vs arrow keys.*  
   
 **4. Snake** (in progress)  
-![Screenshot from Plane](https://github.com/mandyschen/GamesPortfolio/blob/main/screenshots/snake.jpg)  
+![Screenshot from Snake](https://github.com/mandyschen/GamesPortfolio/blob/main/screenshots/snake.jpg)  
 *Collect bananas while avoiding walls and your growing army.*  
   
 ## Next Steps
