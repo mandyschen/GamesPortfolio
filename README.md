@@ -4,7 +4,7 @@ This is a portfolio/personal collection for various mini games I have created fo
 ## Catalogue
 1. Plane  
 ![Screenshot from Plane](https://github.com/mandyschen/GamesPortfolio/blob/main/screenshots/plane.jpg)
-<img src="screenshots/plane.jpg" alt="drawing" width="200" height="100"/>
+<img src="screenshots/plane.jpg" width="200" />
 *Dodge obstacles using WASD or arrow keys.*
 3. Bounce  
 ![Screenshot from Bounce](https://github.com/mandyschen/GamesPortfolio/blob/main/screenshots/bounce.jpg)  
