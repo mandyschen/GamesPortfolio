@@ -6,7 +6,7 @@ Link: https://mandyschen.github.io/GamesPortfolio/
 ## Catalogue
 **1. Plane**  
 ![Screenshot from Plane](https://github.com/mandyschen/GamesPortfolio/blob/main/screenshots/plane.jpg)  
-*Dodge obstacles using WASD or arrow keys.*  
+*Dodge obstacles using WASD or arrow keys. Art by: @lanah9*  
   
 **2. Bounce**  
 ![Screenshot from Bounce](https://github.com/mandyschen/GamesPortfolio/blob/main/screenshots/bounce.jpg)  
