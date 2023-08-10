@@ -1,4 +1,4 @@
-# SproutMonkeyGames
+# GamesPortfolio
 ## Introduction
 This is a portfolio/personal collection for various mini games I have created for gifts, experience, and for fun. The technologies used are primarily p5.js and JavaScript.
 ## Catalogue
