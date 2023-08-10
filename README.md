@@ -3,7 +3,7 @@
 This is a portfolio/personal collection for various mini games I have created for gifts, experience, and for fun. The technologies used are primarily p5.js and JavaScript.
 ## Catalogue
 1. Plane  
-(Insert Image  
+(Insert Image)  
 Dodge obstacles using WASD or arrow keys.
 2. Bounce  
 (Insert Image)  
