@@ -3,8 +3,8 @@
 This is a portfolio/personal collection for various mini games I have created for gifts, experience, and for fun. The technologies used are primarily p5.js and JavaScript.
 ## Catalogue
 1. Plane  
-(Insert Image)  
-Dodge obstacles using WASD or arrow keys.
+![](images/blown up images/avplane.png)
+*Dodge obstacles using WASD or arrow keys.*
 2. Bounce  
 (Insert Image)  
 Bounce a ball against baskets in this brick-breaker esque game.
