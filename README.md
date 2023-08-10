@@ -6,13 +6,13 @@ This is a portfolio/personal collection for various mini games I have created fo
 ![Screenshot from Plane](https://github.com/mandyschen/GamesPortfolio/blob/main/screenshots/plane.jpg)
 <img src="screenshots/plane.jpg" width="200">
 *Dodge obstacles using WASD or arrow keys.*
-3. Bounce  
+2. Bounce  
 ![Screenshot from Plane](https://github.com/mandyschen/GamesPortfolio/blob/main/screenshots/bounce.jpg)  
 *Bounce a ball against baskets in this brick-breaker esque game.*
-4. Pong  
+3. Pong  
 ![Screenshot from Plane](https://github.com/mandyschen/GamesPortfolio/blob/main/screenshots/pong.jpg)   
 *Play pong with WASD vs arrow keys.*
-5. Snake (in progress)  
+4. Snake (in progress)  
 ![Screenshot from Plane](https://github.com/mandyschen/GamesPortfolio/blob/main/screenshots/snake.jpg)  
 *Collect bananas while avoiding walls and your growing army.*
 ## Next Steps
