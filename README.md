@@ -4,7 +4,7 @@ This is a portfolio/personal collection for various mini games I have created fo
 ## Catalogue
 1. Plane  
 (Insert Image)
-Dodge obstacles using arrow keys or WASD.
+Dodge obstacles using WASD or arrow keys.
 2. Bounce  
 (Insert Image)
 Bounce a ball against baskets in this brick-breaker esque game.
