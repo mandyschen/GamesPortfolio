@@ -10,15 +10,15 @@ Link: https://mandyschen.github.io/GamesPortfolio/
   
 **2. Bounce**  
 ![Screenshot from Bounce](https://github.com/mandyschen/GamesPortfolio/blob/main/screenshots/bounce.jpg)  
-*Bounce a ball against baskets in this brick-breaker esque game.*  
+*Bounce a ball against baskets in this brick-breaker esque game. Art by: @lanah9*  
   
 **3. Pong**  
 ![Screenshot from Pong](https://github.com/mandyschen/GamesPortfolio/blob/main/screenshots/pong.jpg)   
-*Play pong with WASD vs arrow keys.*  
+*Play pong with WASD vs arrow keys. Art by: @lanah9*  
   
 **4. Snake** (in progress)  
 ![Screenshot from Snake](https://github.com/mandyschen/GamesPortfolio/blob/main/screenshots/snake.jpg)  
-*Collect bananas while avoiding walls and your growing army.*  
+*Collect bananas while avoiding walls and your growing army. Art by: @lanah9*  
   
 ## Next Steps
 1. Create leaderboards for Plane and Bounce using Browerify and Node.js (https://www.geeksforgeeks.org/javascript-program-to-write-data-in-a-text-file/)
